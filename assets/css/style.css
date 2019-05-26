@@ -18,7 +18,7 @@ html, body {
     margin: auto;
 }
 
-.container {
+.container3 {
     max-width: 768px;
     background-color: #ffffff;
     padding: 20px;
@@ -150,26 +150,28 @@ li.img-overlay {
 .img-overlay {
     position: relative;
     text-align: center;
-    width: 30%;
+    max-width: 30%;
     display: inline-block;
     margin: 25px 15px;
-    font-size: 1.2em;
+    font-size: 24;
 }
 
 .overlayText {
-    position: absolute;
-    top: 70%;
-    transform: translate(0%, 0%);
+    position: relative;
+    float: left;
+    margin: auto;
+    top: 50%;
+    transform: translate(0%, -130%);
     background-color: #4aaaa5;
     padding: 10px;
     color: white;
-    width: 100%;
+    width: 218px;
 }
 
 .portfolioLink {
     margin: 0px;
-    width: 218px;
-    height: 145px;
+    max-width: 218px;
+    max-height: 145px;
 }
 
 .button {
@@ -189,18 +191,8 @@ li.img-overlay {
     margin-left: 20px;
 }
 
-@media screen and (max-width: 980px) {
-    
-}
 
-@media screen and (max-width: 768px) {
-    
-    .img-overlay {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 740px) {
     h1, .nav {
         display: block;
         width: 100%;
@@ -221,8 +213,8 @@ li.img-overlay {
 
     .img-overlay {
         display: block;
-        width: 100%;
-        font-size: 3em;
+        width: 218px;
+        margin: auto;
     }
 
     .flt-lf {
